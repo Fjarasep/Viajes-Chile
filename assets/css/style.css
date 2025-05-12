@@ -1,0 +1,14 @@
+/* Este estilo hace que el desplazamiento al hacer clic en los enlaces del menú sea suave (efecto scroll suave) */
+html {
+  scroll-behavior: smooth;
+}
+
+#carrusel {
+  margin-top: 20px; /* Espacio encima del carrusel */
+  margin-bottom: 20px; /* Espacio debajo del carrusel */
+}
+
+.carousel-item img {
+  object-fit: cover; /* Asegura que la imagen cubra toda el área sin distorsionarse */
+  height: 400px; /* Tamaño fijo para las imágenes */
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Viajes Chile</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Space+Mono&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-papd3gClbTZRzj3K57cI5UTiyV2d4K6S0f4TbmuVv/yTWb3ZpbnW1aYQHjv3bkA8VzU0AnNGc0XU8i5gpe43WA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Tu hoja de estilos -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Barra de navegación -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/viajes.svg" alt="Logo Viajes Chile" width="30" height="30" class="d-inline-block align-text-top">
+          Viajes Chile
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link text-white" href="#inicio">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#quienes-somos">Quiénes Somos</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#destacados">Destacados</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Carrusel -->
+<section id="carrusel">
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- Imagen 1 -->
+      <div class="carousel-item active">
+        <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <!-- Imagen 2 -->
+      <div class="carousel-item">
+        <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <!-- Imagen 3 -->
+      <div class="carousel-item">
+        <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <!-- Controles del carrusel -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+</section>
+
+  <!-- Aquí irán las demás secciones como el carousel, presentación, destacados, contacto y footer -->
+
+  <!-- Bootstrap JS + jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Tu script JS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
