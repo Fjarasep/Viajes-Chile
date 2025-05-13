@@ -119,10 +119,10 @@
   </div>
 </section>
 
-<!-- Sección Destacados-->
+<!--Sección Destacados-->
 <section id="destacados" class="py-5 bg-black">
   <div class="container">
-    
+
     <!-- Título principal de la sección -->
     <h2 class="text-center text-white mb-4">DESTACADOS</h2>
 
@@ -169,7 +169,7 @@
         <div class="card h-100 border border-white">
           <img src="assets/img/card4.jpg" class="card-img-top" alt="Parque Pullehue" style="height: 200px; object-fit: cover;">
           <div class="card-body bg-info text-white">
-            <h5 class="card-title">Parque Pullehue</h5>
+            <h5 class="card-title">Parque Nacional Puyehue</h5>
             <p class="card-text">Sumérgete en la naturaleza del sur de Chile con bosques nativos, ríos cristalinos y una biodiversidad única por descubrir.</p>
           </div>
         </div>
@@ -179,7 +179,67 @@
   </div>
 </section>
 
-  <!-- Aquí irán las demás secciones como el carousel, presentación, destacados, contacto y footer -->
+<!--Formulario de contacto-->
+<section id="contacto" class="py-5 bg-black text-white">
+  <div class="container">
+    <h2 class="text-center mb-4">CONTACTO</h2>
+
+    <!-- Línea separadora blanca -->
+    <hr class="border-light w-100 mx-auto mb-5">
+
+    <form>
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
+      </div>
+      <div class="mb-3">
+        <label for="asunto" class="form-label">Asunto</label>
+        <input type="text" class="form-control" id="asunto" placeholder="Motivo de tu mensaje" required>
+      </div>
+      <div class="mb-3">
+        <label for="correo" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="correo" placeholder="nombre@ejemplo.com" required>
+      </div>
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+      </div>
+      <div class="text-start">
+        <button type="submit" class="btn btn-info text-white">Enviar</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-4 bg-info text-white">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Texto a la izquierda -->
+      <div class="col-md-6 text-start">
+        <p class="mb-0 fw-light fst-italic fs-4">Síguenos en nuestras redes sociales...</p>
+      </div>
+
+      <!-- Íconos a la derecha -->
+      <div class="col-md-6 text-end">
+        <a href="https://github.com/Fjarasep" target="_blank" class="text-white mx-2">
+          <i class="fab fa-github fa-3x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/tu-usuario" target="_blank" class="text-white mx-2">
+          <i class="fab fa-linkedin fa-3x"></i>
+        </a>
+        <a href="https://www.facebook.com/tu-usuario" target="_blank" class="text-white mx-2">
+          <i class="fab fa-facebook fa-3x"></i>
+        </a>
+        <a href="https://www.instagram.com/tu-usuario" target="_blank" class="text-white mx-2">
+          <i class="fab fa-instagram fa-3x"></i>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</footer>
 
   <!-- Bootstrap JS + jQuery -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
