@@ -12,3 +12,18 @@ html {
   object-fit: cover; /* Asegura que la imagen cubra toda el área sin distorsionarse */
   height: 400px; /* Tamaño fijo para las imágenes */
 }
+
+.text-justify {
+  text-align: justify;
+}
+
+.icon-box {
+  background-color: #0dcaf0; /* Celeste */
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 15px; /* Para un poco de separación */
+}
